@@ -40,3 +40,15 @@ console.log(carro.obterDetalhes(carro));
 carro.ligar();
 carro.desligar();
 console.log(carro.obterDetalhes(carro));
+
+Object.defineProperty(carro,'placa',{
+    value: "4714ABC",
+    enumerable: true, 
+});
+
+for (let key in carro) {
+    console.log(key);
+}
+
+console.log(Object.keys(carro));
+console.log(carro.placa);
