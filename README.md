@@ -1,8 +1,6 @@
 # Javascript-Alura-Percorrendo-Objetos
 JavaScript: conhecendo objetos -> 03 Percorrendo Objetos-> Desafio: exercícios
 
-
-
 1 - Crie um objeto chamado pessoa que represente informações sobre uma pessoa. O objeto deve ter as seguintes propriedades: nome e notas. Adicione um método chamado calcularMediaNotas ao objeto pessoa. Este método deve calcular a média das notas da pessoa.
 
 Adicione um método chamado classificarDesempenho ao objeto pessoa. Este método deve retornar uma categoria de desempenho com base na média calculada. Utilize as seguintes categorias:
