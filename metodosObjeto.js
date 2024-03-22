@@ -52,3 +52,19 @@ for (let key in carro) {
 
 console.log(Object.keys(carro));
 console.log(carro.placa);
+
+const carroNovo = {
+    marca: "Mitsubishi",
+    modelo: "Galant",
+    ano: 2003,
+    cor: "preto",
+}
+
+const carroComNovosDetalhes = {
+    ...carroNovo,
+    ...carro,
+    offroad: false,
+    combustivel: "gasolina",
+}
+
+console.log(carroComNovosDetalhes);
